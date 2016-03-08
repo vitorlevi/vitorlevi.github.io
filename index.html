@@ -1,1 +1,143 @@
-Hello World!!
+<!doctype html>
+<html class="export">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width">
+	<meta name="description" content="Cascading grid layout library">
+
+	<title>Vitor Levi</title>
+
+		<link rel="stylesheet" href="css/masonry-docs.css" media="screen">
+		<link rel="stylesheet" href="css/style.css" media="screen">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.css" media="screen">
+
+
+</head>
+<body class="page--index" data-page="index">
+<div class="container-fluid">
+<div class="grid-sizer"></div>
+	<div class="grid">
+		<!-- Box 01 -->
+		<div id="work-01" class="grid-item col-xs-12 col-md-4 col-lg-6" style="background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg')">
+			<label class="item">
+				<h3> This is the box 01</h3>
+				<p class="lead"> Lorem ipsum dolor sit amet. Kailo lakempo</p>
+				<a class="btn btn-default" href="#" role="button">View</a>
+			</label>
+		</div>
+
+		<!-- Box 02 -->
+		<div id="work-02" class="grid-item col-xs-12 col-md-4 col-lg-3" style="background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/submerged.jpg')">
+			<label class="item">
+				<h3> This is the box 02</h3>
+				<p class="lead"> Lorem ipsum dolor sit amet. Kailo lakempo</p>
+				<a class="btn btn-default" href="#" role="button">View</a>
+			</label>
+		</div>
+
+		<!-- Box 03 -->
+		<div id="work-03" class="grid-item col-xs-12 col-md-4 col-lg-3" style="background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/one-world-trade.jpg')">
+			<label class="item">
+				<h3> This is the box 03</h3>
+				<p class="lead"> Lorem ipsum dolor sit amet. Kailo lakempo</p>
+				<a class="btn btn-default" href="#" role="button">View</a>
+			</label>
+		</div>
+
+		<!-- Box 04 -->
+		<div id="work-04" class="grid-item col-xs-12 col-md-4 col-lg-3" style="background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg')">
+			<label class="item">
+				<h3> This is the box 04</h3>
+				<p class="lead"> Lorem ipsum dolor sit amet. Kailo lakempo</p>
+				<a class="btn btn-default" href="#" role="button">View</a>
+			</label>
+		</div>
+
+		<!-- Box 05 -->
+		<div id="work-05" class="grid-item col-xs-12 col-md-4 col-lg-3" style="background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg')">
+			<label class="item">
+				<h3> This is the box 05</h3>
+				<p class="lead"> Lorem ipsum dolor sit amet. Kailo lakempo</p>
+				<a class="btn btn-default" href="#" role="button">View</a>
+			</label>
+		</div>
+
+		<!-- Box 06 -->
+		<div id="work-06" class="grid-item col-xs-12 col-md-4 col-lg-6" style="background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg')">
+			<label class="item">
+				<h3> This is the box 06</h3>
+				<p class="lead"> Lorem ipsum dolor sit amet. Kailo lakempo</p>
+				<a class="btn btn-default" href="#" role="button">View</a>
+			</label>
+		</div>
+
+		<!-- Box 07 -->
+		<div id="work-07" class="grid-item col-xs-12 col-md-4 col-lg-6" style="background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg')">
+			<label class="item">
+				<h3> This is the box 07</h3>
+				<p class="lead"> Lorem ipsum dolor sit amet. Kailo lakempo</p>
+				<a class="btn btn-default" href="#" role="button">View</a>
+			</label>
+		</div>
+
+		<!-- Box 08 -->
+		<div id="work-08" class="grid-item col-xs-12 col-md-4 col-lg-3" style="background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg')">
+			<label class="item">
+				<h3> This is the box 08</h3>
+				<p class="lead"> Lorem ipsum dolor sit amet. Kailo lakempo</p>
+				<a class="btn btn-default" href="#" role="button">View</a>
+			</label>
+		</div>
+
+		<!-- Box 09 -->
+		<div id="work-09" class="grid-item col-xs-12 col-md-4 col-lg-3" style="background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg')">
+			<label class="item">
+				<h3> This is the box 09</h3>
+				<p class="lead"> Lorem ipsum dolor sit amet. Kailo lakempo</p>
+				<a class="btn btn-default" href="#" role="button">View</a>
+			</label>
+		</div>
+
+		<!-- Footer -->
+		<div class="grid-item col-xs-12 col-md-4 col-lg-12" style="background-color: black">
+			 <h3> Footer</h3>
+			 <article> Lorem ipsum dolor sit amet. Kailo lakempo</article>
+		</div>
+	</div>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/masonry.pkgd.js"></script>
+<script type="text/javascript">
+
+
+
+$(document).ready(function() 
+{
+
+	$( ".grid-item" ).hover(function() 
+	{
+		$(this).css("cursor", "pointer");
+		$(".grid-item").hover(function() 
+		{
+			$( this ).css( "background-size", "135%" );
+			$( this ).css( "opacity", ".3" );
+		}, function() {
+			$( this ).css( "background-size", "130%" );
+			$( this ).css( "opacity", "1" );
+		});
+
+	});
+
+	$( ".grid-item" ).click(function() 
+	{
+		var ID = $(this).attr("id");
+		window.location = ID+".html";
+	});
+});
+
+</script>
+</body>
+</html>
