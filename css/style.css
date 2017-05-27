@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lobster|Playfair+Display');
+
+body {
+  background-color: #f9fafb;
+  /*padding-top: 1rem;*/
+  /*font-family: 'Playfair Display', serif;*/
+}
+
+{
+  text-align: justify;
+}
+.text-center{
+  text-align: center !important;
+  /*background-color: lightgray;*/
+}
+.content{
+  margin-top: 56px !important;
+  margin-bottom: 48px !important;
+}
+.float-nav{
+  position: fixed;
+  top: 40%;
+}
+.float-nav .previous{
+  position: fixed;
+  left: 0;
+
+}
+.float-nav .next{
+  position: fixed;
+  right: -4;
+}
+.block{
+  border-right: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  /*background-color: #e0e0e0;*/
+  padding: 5em !important;
+  opacity: 1;
+}
+
+.full-image{
+  margin-left: -21%;
+  max-width: 1920px;
+}
+.projects a{
+  color: black !important;
+}
+
+.ui.padded.stackable.grid{
+  /*border-top: 1px solid #444;*/
+}
+.intro{
+  /*margin: 0;*/
+  background-image: url("http://juca.work/wp-content/uploads/2016/07/Osfg_Cover.jpg");
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 95%;
+
+}
+.banner{
+  /*margin: 0;*/
+  /*background-image: url("http://juca.work/wp-content/uploads/2016/07/Osfg_Cover.jpg");*/
+  background:  no-repeat center -200px fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 45%;
+
+}
+
+.title{
+  color: white !important;
+  font-size: 7rem;
+  line-height: 1;
+  margin: 20% 5% 5% 5%;
+
+  text-align: center;
+  font-family: 'Lobster', cursive;
+}
+.nav{
+  /*margin: 1em;*/
+  padding: 2em 2em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 72px;
+  /*background-color: rgba(0, 0, 0, 0.5);*/
+  color: white;
+}
+
+
+
+/* MEDIA QUERIES */
+@media screen and (max-width:680px) and (min-width: 320px) {
+  .intro{
+    height: 5
+    .projects a{
+      color: black !important;
+      }0% !important;
+  }
+    .title{
+      max-width: 400px;
+      font-size: 4em !important;
+    }
+    .block{
+      height: 20em;
+    }
+    .divider{
+      display: none;
+    }
+    h1{
+      margin-top: 1em !important;
+    }
+}

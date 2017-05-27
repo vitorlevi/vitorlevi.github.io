@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on My New Hugo Site</title>
+    <link>http://vitorlevi.work/tags/</link>
+    <description>Recent content in Tags on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 22 May 2017 15:14:29 -0300</lastBuildDate>
+    
+	<atom:link href="http://vitorlevi.work/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>http://vitorlevi.work/tags/</link>
+      <pubDate>Mon, 22 May 2017 15:14:29 -0300</pubDate>
+      
+      <guid>http://vitorlevi.work/tags/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A</title>
+      <link>http://vitorlevi.work/tags/a/</link>
+      <pubDate>Mon, 22 May 2017 15:04:57 -0300</pubDate>
+      
+      <guid>http://vitorlevi.work/tags/a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Amet</title>
+      <link>http://vitorlevi.work/tags/amet/</link>
+      <pubDate>Mon, 22 May 2017 15:04:47 -0300</pubDate>
+      
+      <guid>http://vitorlevi.work/tags/amet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>B</title>
+      <link>http://vitorlevi.work/tags/b/</link>
+      <pubDate>Mon, 22 May 2017 15:04:57 -0300</pubDate>
+      
+      <guid>http://vitorlevi.work/tags/b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Business</title>
+      <link>http://vitorlevi.work/tags/business/</link>
+      <pubDate>Fri, 26 May 2017 19:44:21 -0300</pubDate>
+      
+      <guid>http://vitorlevi.work/tags/business/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C</title>
+      <link>http://vitorlevi.work/tags/c/</link>
+      <pubDate>Mon, 22 May 2017 15:04:57 -0300</pubDate>
+      
+      <guid>http://vitorlevi.work/tags/c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Design</title>
+      <link>http://vitorlevi.work/tags/design/</link>
+      <pubDate>Fri, 26 May 2017 19:44:21 -0300</pubDate>
+      
+      <guid>http://vitorlevi.work/tags/design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Intel</title>
+      <link>http://vitorlevi.work/tags/intel/</link>
+      <pubDate>Fri, 26 May 2017 19:44:21 -0300</pubDate>
+      
+      <guid>http://vitorlevi.work/tags/intel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ipsum</title>
+      <link>http://vitorlevi.work/tags/ipsum/</link>
+      <pubDate>Mon, 22 May 2017 15:04:47 -0300</pubDate>
+      
+      <guid>http://vitorlevi.work/tags/ipsum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lorem</title>
+      <link>http://vitorlevi.work/tags/lorem/</link>
+      <pubDate>Mon, 22 May 2017 15:04:47 -0300</pubDate>
+      
+      <guid>http://vitorlevi.work/tags/lorem/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Service</title>
+      <link>http://vitorlevi.work/tags/service/</link>
+      <pubDate>Fri, 26 May 2017 19:44:21 -0300</pubDate>
+      
+      <guid>http://vitorlevi.work/tags/service/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
