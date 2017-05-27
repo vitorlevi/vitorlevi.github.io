@@ -1,0 +1,7 @@
+<div class="ui divider">
+<div>
+{{ range (.Paginator 5).Pages }}
+    <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+    <h6>{{ .Description }}</h6>
+  {{- end }}
+</div>

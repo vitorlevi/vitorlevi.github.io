@@ -1,0 +1,28 @@
+{{ partial "header.html" . }}
+{{ partial "intro.html" . }}
+
+<div class="ui stackable grid projects">
+  {{- range first 20 (where .Data.Pages.ByWeight "Section" "project") -}}
+      <!-- <div class="{{ .Params.block }} wide column block" style='background-image: url("{{ .Params.featured_image }}");'> -->
+      <div class="{{ .Params.block }} wide column block">
+        <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+        <div class="ui divider"></div>
+        <p>{{ .Params.description }}</p>
+        <div class="ui grid">
+          <div class="row">
+            <!-- <div class="column">
+                {{ range .Params.tags }}
+                  <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+                {{ end }}
+            </div> -->
+            <div class="column">
+              <a href="{{ .Permalink }}"> <button class="ui black basic button">Read more</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+  {{- end }}
+</div>
+
+
+{{ partial "footer.html" . }}

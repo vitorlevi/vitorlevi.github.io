@@ -1,0 +1,31 @@
+{{ partial "header.html" . -}}
+{{ partial "banner.html" . }}
+
+<div class="ui container centered grid content">
+  <div class="row">
+      <div class="six wide column text-center"><h1>{{ .Title }}</h1></div>
+  </div>
+  <!-- <div class="row">
+    <div class="two column text-center"><h5>{{ .Date.Format "Mon, Jan 2, 2006" }}</h5></div>
+  </div> -->
+  <div class="row">
+    <div class="eight wide column text-center"><p>{{ .Params.description }}</p></div>
+  </div>
+  <!-- <div class="row">
+    <div class="eight wide column text-center">
+        {{ range .Params.tags }}
+          <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">&nbsp; {{ . }} &nbsp;</a>
+        {{ end }}
+    </div>
+  </div> -->
+  <div class="ui divider"></div>
+</div>
+
+<div class="ui container grid content">
+  {{ .Site.Data  }}
+  {{ .Content }}
+</div>
+
+
+{{ partial "navigation.html" . }}
+{{ partial "footer.html" . }}

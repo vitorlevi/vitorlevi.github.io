@@ -1,0 +1,10 @@
+{{ partial "top-menu.html" . }}
+<div class="ui banner centered grid" style='background-image: url("{{ .Site.BaseURL }}{{ .Params.featured_image }}");'>
+
+
+{{- range first 10 .Data.Pages -}}
+  {{- if eq .Type "page"}}
+    <span class="title">{{ .Description }}</span>
+  {{- end -}}
+{{- end }}
+</div>

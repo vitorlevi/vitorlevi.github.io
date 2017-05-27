@@ -1,0 +1,19 @@
+<div class="float-nav">
+    {{ if .Prev }}
+      <a class="previous" href="{{.Prev.Permalink}}">
+        <button class="ui button">
+          <i class="large angle left icon"></i>
+          <!-- <p>{{.Prev.Title}}</p> -->
+        </button>
+      </a>
+    {{ end }}
+    {{ if .Next }}
+        <a class="next" href="{{.Next.Permalink}}">
+          <button class="ui button">
+            <i class="large angle right icon"></i>
+            <!-- <p>{{.Next.Title}}</p> -->
+          </button>
+      </a>
+
+    {{ end }}
+</div>

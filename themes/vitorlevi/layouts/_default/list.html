@@ -1,0 +1,9 @@
+{{ partial "header.html" . -}}
+<div class="ui container grid">
+  <h1>Articles</h1>
+  {{- range first 10 .Data.Pages }}
+    <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+    <h6>{{ .Description }}</h6>
+  {{- end }}
+</div>
+{{ partial "footer.html" . -}}
